@@ -1,4 +1,5 @@
 # eCRRNN
+
 Readme.md 
 
 This repository provides the companying data sets and scripts for the paper:
@@ -40,12 +41,13 @@ Download the package ecrrnn_q8.gz and unzip it. The folder structure and its exp
 ​    /q3: ten trained model files for q3 prediction. Please download from http://qianglab.scst.suda.edu.cn/ecrrnn/crrnn_q3_models.tar.gz.
 
 **/data**: all data files
+    one-vec.dat  Sequence coding vectors where are used to map a one-hot vector to  a Densed vector.
 
 ​    /cb513
 
 - cb513_fasta_label.txt: residues and labels in CB513 dataset.
-- cb513+profile_split1.npy: orginal PSSM published by Zhou J, Troyanskaya OG. Deep supervised and convolutional generative stochastic network for protein secondary structure prediction. In: Proceedings of the 31st International Converenfe on Machine Learning (ICML). Bejing: PMLR: 2014. p. 745–53.. 
-- cb513_profile_myfea50_pad700.npy: input features to eCRRNN. 
+- cb513+profile_split1.npy: orginal CB513 dataset published by Zhou J, Troyanskaya OG. Deep supervised and convolutional generative stochastic network for protein secondary structure prediction. In: Proceedings of the 31st International Converenfe on Machine Learning (ICML). Bejing: PMLR: 2014. p. 745–53.. 
+- cb513_profile_myfea50_pad700.npy: input features to eCRRNN and labels of CB513 dataset. 
 
 ​	/test2018: A test dataset for evaluating SecNet released by Maxim Shapovalov , Roland L. Dunbrack, Jr and Slobodan Vucetic(2020, https://github.com/sh-maxim/ss)
 

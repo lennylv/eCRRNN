@@ -42,7 +42,7 @@ Download the package ecrrnn_q8.gz and unzip it. The folder structure and its exp
 
 **/data**: all data files
 
-​    one-vec.dat  Sequence coding vectors where are used to map a one-hot vector to  a densed vector.
+​    one-vec.dat  Sequence coding vectors which are used to map a one-hot vector to  a densed vector.
 
 ​    /cb513
 

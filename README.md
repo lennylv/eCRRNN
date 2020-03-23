@@ -41,6 +41,7 @@ Download the package ecrrnn_q8.gz and unzip it. The folder structure and its exp
 ​    /q3: ten trained model files for q3 prediction. Please download from http://qianglab.scst.suda.edu.cn/ecrrnn/crrnn_q3_models.tar.gz.
 
 **/data**: all data files
+
     one-vec.dat  Sequence coding vectors where are used to map a one-hot vector to  a Densed vector.
 
 ​    /cb513
